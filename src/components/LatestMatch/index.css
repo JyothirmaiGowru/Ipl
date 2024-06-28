@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.LatestMatch-container {
+  margin-top: 24px;
+}
+.LatestMatch-heading {
+  color: #ffffff;
+  font-family: Bree Serif;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+.LatestMatch-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 12px;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+.LatestMatch-card-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-card-logo-container {
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+}
+.LatestMatch-details1 {
+  width: 70%;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details1 {
+    align-self: flex-start;
+    width: 48%;
+  }
+}
+.LatestMatch-details-teamname {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details-teamname {
+    font-size: 25px;
+  }
+}
+.LatestMatch-details-date {
+  color: #ffffff;
+  font-family: Bree serif;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details-date {
+    font-size: 20px;
+  }
+}
+.LatestMatch-details {
+  font-family: Bree Serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details {
+    font-size: 18px;
+  }
+}
+.LatestMatch-details-team-logo {
+  width: 60px;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details-team-logo {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
+.separator {
+  border: 1px solid #ffffff;
+}
+.LatestMatch-details-label {
+  font-family: Bree Serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details-label {
+    font-size: 20px;
+  }
+}
+.LatestMatch-details-value {
+  font-family: Bree Serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .LatestMatch-details-value {
+    font-size: 14px;
+  }
+}
+.latest-matchdetails2 {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
